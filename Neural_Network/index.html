@@ -1,0 +1,15 @@
+<html>
+    <head>
+        <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest"> </script>
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>   
+        <script src="model.js"></script> 
+    </head>
+    
+    <body onload="buildModel()">
+        <button id="loadDataButton" onclick="loadUserData()">Load data</button>
+        <button id="trainButton" onclick="trainModel()" >Train</button>
+        <button id="testButton" onclick="predict()">Test</button>
+    </body>
+    
+</html>
+
