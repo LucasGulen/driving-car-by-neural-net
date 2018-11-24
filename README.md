@@ -11,11 +11,11 @@ The project contains five differents parts :
   - Neural network
   - Front_IA
   
- The "Back" part is the laravel backend part to store the user data in a mysql database. 
+ The "Back" is the laravel backend part to store the user data in a mysql database. 
  
  The "FrontMapMaker" part is a graphical interface developped with some Javascript code and p5.js in order to let you create some circuits. Each circuit you create and would like to use after must be saved in the "Front" directory. The path has to be : "Front/circuits" and each name of each circuit must follow this pattern "circuit_1.json".
  
- The "Front" par is the GUI which some users use to try to finish some circuits and when this happen, the data stored will be send to the "Back" part with an AJAX request.
+ The "Front" part is the GUI which users use to try to finish some circuits and when this happen, the data stored will be send to the "Back" part with an AJAX request.
  
  The "Neural Network" part is a Javascript project which was made with TensorflowJS. In this part, we build a simple Multi Layer Perceptron. This Model will use the data stored in the "Back" part before. To make it functionnal, please verify that the "Front" part send successfully the data to the backend and then verify in the "Neural Network" part that the connection to the backend is okay. To Build the model and train it, we make a simple HTML file called "index.html" which contains three buttons : 
  
