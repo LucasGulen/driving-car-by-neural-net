@@ -1,7 +1,7 @@
 # driving-car-by-neural-net
 We create this project because of a seminar about Artificial Neural Network. As we had make our presentation as collaborative as possible, we had the idea to develop a game and use the user data to train a Model. 
 
-The aim was to make it fun for the public in our presentation and at the same time get back their actions in the game to create a dataset to train our model. So we created a 2D simulation car game with differents circuits generated randomly at each time a user hits a square. As the final goal is to train a model to finish this circuits alone, the users must perform in this game without touching the wall (represented by white squares). 
+The aim was to make our presentation a little bit fun and at the same time get back their actions in the game to create a dataset to train our model. So we created a 2D simulation car game with differents circuits generated randomly at each time a user hits a square. As the final goal is to train a model to finish this circuits alone, the users must perform in this game without touching the wall (represented by white squares). 
 
 The project contains five differents parts : 
 
