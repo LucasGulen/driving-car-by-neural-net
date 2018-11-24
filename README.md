@@ -24,11 +24,11 @@ The project contains five differents parts :
                --> At the end of the training, it will stored the model and the weights.
  - Test model --> It will pass the test set which represents 25% of all the data and test the MLP
  
- The "Front_IA" part is a graphical replication of the "Front" part except that it will not respond to any user interaction. It will use TensorflowJs to load a pre trained model and the weights associated to make some prediction at each frame of the game. In order words, the vehicle go through the current circuit and ask the Neural network every frame to know what kind of action to do.
+ The "Front_IA" part is a graphical replication of the "Front" part except that it will not respond to any user interaction. It will use TensorflowJs to load a pre trained model and the weights associated to make some prediction at each frame of the game. In order words, the vehicle go through the current circuit and ask the Neural network every frame to know what kind of action to do. If you want to try your own model training result, do not forget to replace the two files "car_simulation_model.json" and "car_simulation_weights.bin" in the following path "Front_IA/".
  
- With our Model implementation, the Neural network succeed to finish some simple circuit with not so much corner. We could see that much the neural network has some variated data to train on variated circuits, much it performed well int the "Front_IA" part.
+ With our Model implementation, the Neural network succeed to finish some simple circuits with not so much corners. We could see that more the neural network has some variated data to train on variated circuits, more it performed well int the "Front_IA" part.
  
- To have some best result than us, we could give you this advices : 
+ To have best results than us, we could give you some advices : 
  
  - Make more circuits and as different as possible
  - Give to the Neural network as much data as you can 
